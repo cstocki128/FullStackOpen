@@ -138,7 +138,7 @@ function App() {
         <Button handleClick={() => setToValue(good + 1,txtGood)} text={txtGood}></Button>
         <Button handleClick={() => setToValue(neutral + 1,txtNeutral)} text={txtNeutral}></Button>
         <Button handleClick={() => setToValue(bad + 1,txtBad)} text={txtBad}></Button>
-        <Statics good={good} neutral={neutral} bad={bad} all={all}></Statics>     
+        <Statics good={good} neutral={neutral} bad={bad} all={all}></Statics>      
     </div>
   )
 }
