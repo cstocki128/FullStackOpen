@@ -170,7 +170,7 @@ function App() {
     setVotes(copy) 
   }
  
-  
+
 
   return (
     <div className="App">
